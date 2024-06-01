@@ -9,13 +9,17 @@
     }
     #status {
       margin-top: 10px;
+      cursor: pointer;
+      color: blue;
+      text-decoration: underline;
+      
     }
   </style>
 </head>
 <body>
   <h1>URL Shortener</h1>
-  <button id="shortenBtn">Shorten URL</button>
-  <div id="status"></div>
+  <button id="shortenBtn">Get the Shorten URL</button>
+  <div id="status" target="_blank" style="display:none;"></div>
   <script src="popup.js"></script>
 </body>
 </html>
